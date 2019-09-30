@@ -1,0 +1,16 @@
+name: buypowerboost
+version: 1.0
+author: magrigri
+main: fr.magrigri.buypowerboost.Main
+commands:
+  buypowerboost:
+    description: Buy powerboost
+    permission: fr.magrigri.buypowerboost
+    aliases: [powerboost]
+
+permissions:
+  fr.magrigri.buypowerboost:
+    description: Allow buypowerboost command
+    default: true
+
+depend: [Vault]

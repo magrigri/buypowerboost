@@ -1,0 +1,36 @@
+#Powerboost player win each level
+Boost:
+  lvl1: 1 #1 power total
+  lvl2: 1 #2 power total
+  lvl3: 2 #4 power total
+  lvl4: 1 #5 power total
+  lvl5: 1 #6 power total
+  lvl6: 2 #8 power total
+  lvl7: 1 #9 power total
+  lvl8: 3 #12 power total
+
+# Level up price
+Cost:
+  lvl1: 300000 #300k
+  lvl2: 300000 #300k
+  lvl3: 600000 #600k
+  lvl4: 600000 #600k
+  lvl5: 600000 #600k
+  lvl6: 1200000 #1.2M
+  lvl7: 1200000 #1.2M
+  lvl8: 1000000 #10M
+
+Messages:
+
+  #This level is already unlocked or locked
+  locked: "§2§l[PowerBoost] §2Ce niveau est verrouillé ou déjà déverrouillé."
+
+  #You don't have enough money
+  noMoney : "§2§l[PowerBoost] §2Vous n'avez pas les fonds nécéssaires."
+
+  #You have unlocked the powerboost (the powerboost level is dispayed after this message)
+  done: "§2§l[PowerBoost] §2Vous avez débloqué le powerboost "
+
+Storage:
+  uuid: 1
+
